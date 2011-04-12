@@ -1,4 +1,17 @@
-To start the server, use the command:
+First run:
+	python manage.py syncdb
 
+to create the database.  This should prompt you to create a new superuser.
+You should create one at this time.  After you do that, you should be able
+to just run the server (as long as you have django installed).
+
+To start the server, use the command:
 	python manage.py runserver
 
+Access the content through your web browser by going to:
+	http://127.0.0.1:8000/{app name}
+
+where {app name} is the name of the particular app you want to access.
+
+Current working apps are:
+ * polls
