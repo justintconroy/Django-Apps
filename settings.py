@@ -131,7 +131,8 @@ INSTALLED_APPS = (
 
 	# My apps
     'polls',
-#	'scores'
+	'gamescores',
+	'betterweather',
 )
 
 # A sample logging configuration. The only tangible logging
